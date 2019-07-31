@@ -1,75 +1,12 @@
-.container {
+
+* {
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: lightgray;
+    width: 80%;
+    height: 50vh;
+    margin: auto;
     display: grid;
-    width: 100%;
-    height: 100vh;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    justify-content: center;
-    align-items: center;
-}
-
-body    {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.codeup-design {
-    display: flex;
-    justify-content: center;
-}
-
-.main-title {
-    display: flex;
-    justify-content: center;
-}
-
-.utah {
-    display: flex;
-    justify-content: center;
-}
-
-
-.nav {
-    display: flex;
-justify-content: center;
-    align-items: center;
-}
-
-a {
-    display: flex;
-    justify-content: center;
-}
-
-.main {
-    display: flex;
-    justify-content: center;
-
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    display: none;
-}
-
-.nav-list {
-    display: flex;
-    flex-direction: row;
-}
-
-.first2 {
-    justify-content: flex-start;
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-
-.second2 {
-    justify-content: flex-end;
-}
-
-.codeup-design {
-    grid-column: 1/3;
-    grid-row: 1/2;
-    justify-content: center;
 }
