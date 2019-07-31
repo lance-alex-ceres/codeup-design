@@ -1,36 +1,28 @@
 
 html {
     box-sizing: border-box;
-    justify-content: center;
-    background-color: lightgray;
-    width: 80%;
-    height: 70vh;
+    background-color: black;
     margin: auto;
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
 
-
-
-
+body {
+    background-color: lightgray;
+    margin: auto;
+    width: 50%;
+}
 
 header .nav-list {
     display: flex;
     grid-column: 1/3;
     grid-row: 1/2;
     flex-direction: row;
-
-
-}
-
-
-body {
-    margin: 0;
 }
 
 
 .first2 {
+    display: flex;
     grid-column: 1/2;
     grid-row: 1/2;
 }
