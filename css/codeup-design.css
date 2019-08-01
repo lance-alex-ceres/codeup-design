@@ -1,5 +1,6 @@
 * {
-
+    box-sizing: border-box;
+    background-color: lightgray;
 }
 
 
@@ -8,39 +9,81 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+
 }
 
 .container {
-
     display: grid;
     width: 90%;
     height: 50vh;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(8, 1fr);
-    grid-gap: .4em;
-    padding: .4em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+
 }
+
+
+
+
+
+
+
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    grid-column: 1/5;
+    grid-row: 1/2;
+
+}
+
+.codeup-design{
+    display: flex;
+    justify-content: center;
+grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.visual-design {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.utah {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.bubbles {
+    list-style: none;
+    grid-column: 2/4;
+    grid-row: 5/6;
+}
+
+
 
 
 .granny-apple {
     display: flex;
-    grid-column: 1/2;
-    grid-row: 2/3;
+    grid-column: 1/3;
+    grid-row: 6/7;
+
+
 }
 
 .apple-comp {
-    grid-column: 2/3;
-    grid-row: 2/3;
+    grid-column: 3/5;
+    grid-row: 6/7;
+
 }
 
 
 .four-eyes {
-    grid-column: 1/2;
-    grid-row: 3/4;
+    grid-column: 1/3;
+    grid-row: 7/8;
 }
 
 
 .security {
-    grid-column: 2/3;
-    grid-row: 3/4;
+    grid-column: 3/5;
+    grid-row: 7/8;
 }
