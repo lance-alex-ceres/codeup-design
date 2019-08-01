@@ -19,13 +19,17 @@ h6
     font-size: 48px;
     font-family: abel;
 }
+
+
 .logo
 {
+    display: flex;
     background-color: white;
     justify-content: center;
     height: 105px;
     width: 105px;
     border-radius: 100px;
+    text-align: center;
 
 }
 
@@ -35,6 +39,7 @@ h6
     flex-direction: row;
     padding: 0;
     justify-content: space-evenly;
+    margin-bottom: 60px;
 }
 
 h1, h2, h3 {
@@ -42,6 +47,7 @@ h1, h2, h3 {
     margin: 0;
     display: flex;
     justify-content: center;
+    font-family: anton;
 }
 
 .container {
@@ -58,7 +64,9 @@ h1, h2, h3 {
 
 
 
-
+.footer-image {
+    display: none;
+}
 
 
 .nav-list {
@@ -74,6 +82,7 @@ h1, h2, h3 {
     justify-content: center;
 grid-column: 2/4;
     grid-row: 2/3;
+    margin: 35px;
 }
 
 .visual-design {
