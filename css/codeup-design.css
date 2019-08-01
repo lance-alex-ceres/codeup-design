@@ -9,9 +9,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    margin: auto;
     padding: 0;
 
+}
+
+.container {
+    display: grid;
+    height: 50vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin: auto;
+    width: 70%;
+}
+
+nav {
+    grid-area: 1/1/2/4;
+}
+
+header {
+    grid-area: 2/1/3/4;
+}
+
+section {
+    grid-area: 3/1/4/4;
 }
 
 h6
@@ -31,6 +52,12 @@ h6
     border-radius: 100px;
     text-align: center;
     margin-left: 6em;
+
+}
+
+.codeup-design {
+    display: flex;
+    justify-content: center;
 }
 
 .header
@@ -39,7 +66,16 @@ h6
     flex-direction: row;
     padding: 0;
     justify-content: space-evenly;
-    margin-bottom: 60px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.visual-design
+{
+    display: flex;
+    justify-content: center;
 }
 
 h1, h2, h3 {
@@ -50,55 +86,81 @@ h1, h2, h3 {
     font-family: anton;
 }
 
-.container {
-    /*display: grid;*/
-    /*width: 90%;*/
-    /*height: 50vh;*/
-    /*grid-template-columns: repeat(3, 1fr);*/
-    /*grid-template-rows: repeat(10, 1fr);*/
-    margin: 0 auto;
-    width: 70%;
-}
 
+/*.visual-design {*/
+/*}*/
 
-
-.codeup-design{
-    display: flex;
-    justify-content: center;
-    grid-column: 2/4;
-    grid-row: 2/3;
-    margin:0 0 35px 5px ;
-}
-
-.visual-design {
-    margin-bottom: 60px;
-}
-
-.utah {
-    margin-bottom: 50px;
-}
 
 .bubbles {
-    grid-template-columns:  1fr 1fr;
-    grid-template-rows:  1fr 1fr;
     display: flex;
-    justify-content: center;
-    margin-bottom: 100px;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 
-.selected
-{
-    display: flex;
+/*.selected*/
+/*{*/
+
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    font-size: 25px;*/
+/*}*/
+
+.design {
+    width: 105px;
+    height: 105px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: grid;
+    text-align: center;
     justify-content: center;
-    font-size: 25px;
-    margin-bottom: 40px;
+    align-items: center;
+    border: 4px solid white;
+    color: white;
 }
 
+.develop {
+    width: 105px;
+    height: 105px;
+    background-color: rgb(224, 141 ,21);
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 4px solid white;
+}
+
+.support {
+    width: 105px;
+    height: 105px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 4px solid white;
+
+
+}
+
+.host {
+    width: 105px;
+    height: 105px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: inline-flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 4px solid white;
+}
 .granny-apple {
-    display: flex;
-    justify-content: center;
-    margin: auto;
+    margin: 0 auto;
     width: 100%
 }
 
@@ -127,71 +189,7 @@ h1, h2, h3 {
 
 }
 
-.bubbles {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr  1fr 1fr;
-    display: grid;
-    justify-content: space-evenly;
-    width: 300px;
-    height: 300px;
-}
 
-.design {
-    width: 105px;
-    height: 105px;
-    background-color: #E6563B;
-    border-radius: 50%;
-    display: grid;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    border: 4px solid white;
-    color: white;
-}
-
-.develop {
-    width: 105px;
-    height: 105px;
-    background-color: rgb(224, 141 ,21);
-    border-radius: 50%;
-    display: grid;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border: 4px solid white;
-}
-
-.support {
-    width: 105px;
-    height: 105px;
-    background-color: #7CB06C;
-    border-radius: 50%;
-    display: grid;
-    text-align: center;1
-    justify-content: center;
-    align-items: center;
-    color: white;
-    border: 4px solid white;
-    grid-column: 2/3;
-    grid-row:1/2;
-
-}
-
-.host {
-    width: 105px;
-    height: 105px;
-    background-color: #00ABA9;
-    border-radius: 50%;
-    display: inline-flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    border: 4px solid white;
-}
 @media screen and (min-width: 500px) {
 
 
