@@ -1,3 +1,8 @@
+@media screen and (min-width:600px) {
+     {
+
+    }
+}
 * {
     box-sizing: border-box;
 
@@ -53,7 +58,7 @@ h6
 .logo
 {
     display: flex;
-    background-color: white;
+    background-color: green;
     justify-content: center;
     height: 105px;
     width: 105px;
@@ -62,6 +67,7 @@ h6
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
+    border: 4px solid green;
 }
 
 .codeup-design {
@@ -84,6 +90,7 @@ h6
     margin-bottom: 6em;
     text-align: center;
 
+
 }
 
 .visual-design
@@ -92,16 +99,20 @@ h6
     justify-content: center;
     font-size: 48px;
     margin-bottom: 75px;
+    margin-right: 1.2em;
+    padding-left: .5em;
+
 
 }
 
 .utah {
     margin-bottom: 60px;
+    margin-left: -3.5em;
 
 }
 h1, h2, h3 {
-    padding: 0;
-    margin: 0;
+    /*padding: 0;*/
+    /*margin: 0;*/
     display: flex;
     justify-content: center;
     font-family: 'Anton', sans-serif;
@@ -113,6 +124,7 @@ h1, h2, h3 {
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
     justify-items: center;
+    grid-gap: .5em;
     /*display: flex;*/
     /*flex-direction: row;*/
     /*justify-content: space-evenly;*/
@@ -131,6 +143,7 @@ h1, h2, h3 {
     border: 4px solid white;
     color: white;
     grid-area: 1/1/2/2;
+    margin-left: 4em;
 }
 
 .develop {
@@ -145,6 +158,7 @@ h1, h2, h3 {
     color: white;
     border: 4px solid white;
     grid-area: 1/2/2/3;
+    margin-right: 10em;
 }
 
 .support {
@@ -158,8 +172,7 @@ h1, h2, h3 {
     align-items: center;
     color: white;
     border: 4px solid white;
-    grid-area: 2/1/2/3;
-
+    margin-left: 4em;
 }
 
 .host {
@@ -168,12 +181,13 @@ h1, h2, h3 {
     background-color: #00ABA9;
     border-radius: 50%;
     display: inline-flex;
-    text-align: center;
+    /*text-align: center;*/
     align-items: center;
     justify-content: center;
     color: white;
     border: 4px solid white;
     grid-area: 2/2/3/3;
+    margin-right: 10em;
 }
 
 .selected
@@ -182,11 +196,14 @@ h1, h2, h3 {
     justify-content: center;
     font-size: 25px;
     margin-top: 180px;
+    margin-bottom: 2em;
+    margin-right: 2.5em;
 }
 
 .granny-apple {
     margin: 0 auto;
-    width: 100%
+    width: 100%;
+
 }
 
 .apple-comp {
@@ -214,7 +231,54 @@ h1, h2, h3 {
 
 }
 
+.the-dots {
 
-@media screen and (min-width: 500px) {
+}
+
+.red-dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: #E6563B;
+    padding-top: .2em;
+    margin-left: 8em;
+}
+
+.yellow-dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: #EB9D3A;
+    padding-top: .2em;
+}
+
+.green-dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: #7CB06C;
+    padding-top: .2em;
+}
+
+.teal-dot {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: #00ABA9;
+    padding-top: .2em;
+}
+@media screen and (min-width: 992px) {
 
 }
